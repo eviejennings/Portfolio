@@ -12,10 +12,12 @@
   padding: 20px;
 }
 .w-layout-cell {
-  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: right;
 }
 .container {
   background-image: linear-gradient(
@@ -26,7 +28,6 @@
     #fff
   );
   border-radius: 10px;
-  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   padding: 20px;
@@ -47,6 +48,7 @@
   box-shadow: 0 6px 11px rgba(204, 140, 235, 0.27);
 }
 .nav-link {
+  color: #000;
   text-align: center;
   flex-direction: column;
   justify-content: center;
@@ -65,6 +67,10 @@
   border-radius: 10px;
   margin-left: 20px;
   font-weight: 400;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
 }
 .nav-link.cta:hover {
   color: #cc8ceb;
@@ -101,7 +107,7 @@
   box-shadow: 0 20px 12px 7px rgba(225, 183, 203, 0.63);
 }
 .image {
-  max-width: 650px;
+  max-width: 350px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -120,6 +126,7 @@
   color: #090808;
   background-image: linear-gradient(225deg, #cc8ceb, #fff);
   padding: 20px;
+  max-width: 300px;
 }
 .project-cell.project2 {
   color: #000;
@@ -198,12 +205,7 @@
   color: #020202;
 }
 .form {
-  grid-column-gap: 10px;
-  grid-row-gap: 0px;
   text-align: left;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
   display: block;
 }
 .submit-button {
@@ -367,28 +369,6 @@
   .paragraph-3 {
     text-align: center;
   }
-}
-#hero-section {
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 0.5fr;
-}
-#hero-intro {
-  grid-area: span 2 / span 1 / span 2 / span 1;
-}
-#about-me,
-#about-me-2 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-}
-#project-section {
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
-}
-#project-1 {
-  grid-area: span 2 / span 1 / span 2 / span 1;
-}
-#project-2,
-#project-3 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
 }
 @media screen and (max-width: 479px) {
   #project-section {
