@@ -2,46 +2,17 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 14.5px;
 }
-.w-layout-blockcontainer {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
+.heading,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.heading-7 {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
 }
-.w-layout-layout {
-  grid-row-gap: 20px;
-  grid-column-gap: 20px;
-  grid-auto-columns: 1fr;
-  justify-content: center;
-  padding: 20px;
-}
-.w-layout-cell {
-  justify-content: flex-start;
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  color: #fff;
-  text-align: right;
-}
-.container {
-  background-image: linear-gradient(
-    214deg,
-    #cc9ceb,
-    #f57699 56%,
-    #f3a07b 82%,
-    #fff
-  );
-  border-radius: 10px;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 20px;
-  display: flex;
-  position: static;
-}
-.section {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
+
+/*nav bar design*/
 .navbar {
   background-color: #fffdfd;
   position: static;
@@ -90,12 +61,69 @@ body {
   background-color: #fff;
   border: 1px solid #cc8ceb;
 }
-.paragraph {
-  max-width: 475px;
+.nav-menu {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.brand {
+  max-width: 100px;
+}
+.brand.logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*container and section design*/
+.container {
+  background-image: linear-gradient(
+    214deg,
+    #cc9ceb,
+    #f57699 56%,
+    #f3a07b 82%,
+    #fff
+  );
+  border-radius: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  display: flex;
+  position: static;
+}
+.section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.quick-stack {
+  color: #884324;
+}
+
+/*hero section*/
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+}
+.w-layout-layout {
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  padding: 20px;
+}
+.w-layout-cell {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
   color: #fff;
-  text-align: left;
-  margin-top: 10px;
-  margin-bottom: 0;
+  text-align: right;
 }
 .heading {
   color: #fff;
@@ -104,24 +132,14 @@ body {
   margin-bottom: 20px;
   font-size: 30px;
 }
-
-h2 {
-  font-size: 25px;
+.paragraph {
+  max-width: 475px;
+  color: #fff;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
-h3 {
-  font-size: 18px;
-}
-
-.heading,
-.heading-2,
-.heading-3,
-.heading-4,
-.heading-5,
-.heading-7 {
-  font-family: "Libre Baskerville", serif;
-  text-align: center;
-}
 .button {
   color: #fff;
   background-color: #a057c4;
@@ -139,6 +157,39 @@ h3 {
   background-color: #fff;
   box-shadow: 0 20px 12px 7px rgba(225, 183, 203, 0.63);
 }
+
+.paragraph-2 {
+  color: #2b0a3c;
+  text-align: center;
+  background-color: #fcfcfc;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 400;
+  position: static;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: auto;
+}
+.paragraph-3 {
+  color: #020202;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  position: static;
+  top: 0%;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+/*project section design*/
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 18px;
+}
 .image {
   max-width: 350px;
   margin-top: 20px;
@@ -146,9 +197,15 @@ h3 {
   justify-content: center;
   text-align: center;
 }
+.image-2,
+.image-3,
+.image-4 {
+  border-radius: 10px;
+}
 .section-2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
   justify-content: center;
 }
@@ -156,10 +213,22 @@ h3 {
   color: #f3a07b;
   text-align: center;
 }
+.heading-3 {
+  color: #582074;
+  text-align: center;
+}
+.heading-4 {
+  color: #8b213f;
+  text-align: center;
+}
+.heading-5 {
+  color: #884324;
+  text-align: center;
+}
 .project-cell {
   border-radius: 10px;
   display: flex;
-  text-align: center;
+  align-items: center;
 }
 .project-cell.project1 {
   color: #090808;
@@ -168,6 +237,8 @@ h3 {
   justify-content: center;
   align-items: center;
   display: flex;
+  margin-bottom: 20px;
+  text-align: center;
 }
 .project-cell.project2 {
   color: #000;
@@ -176,15 +247,49 @@ h3 {
   justify-content: center;
   align-items: center;
   display: flex;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .project-cell.project3 {
   color: #000;
   background-image: linear-gradient(225deg, #f3a07b, #fff);
   padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   display: flex;
 }
+.cell {
+  align-items: flex-start;
+}
+.link {
+  color: #884324;
+  text-transform: none;
+  background-color: rgba(243, 160, 123, 0.42);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 2.5px 10px;
+  text-decoration: none;
+}
+.link-2 {
+  color: #8b213f;
+  background-color: rgba(245, 118, 153, 0.36);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 2.5px 10px;
+  text-decoration: none;
+}
+.link-3 {
+  color: #582074;
+  background-color: rgba(204, 140, 235, 0.43);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 2.5px 10px;
+  text-decoration: none;
+}
+
+/*footer design*/
 .footer-logo {
   margin-top: 30px;
   width: 110px;
@@ -205,17 +310,6 @@ h3 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.logo {
-  max-width: 100%;
-  border-radius: 10px;
-}
-.brand {
-  max-width: 100px;
-}
-.brand.logo {
-  text-align: center;
-  margin-bottom: 10px;
-}
 .container-2 {
   flex-direction: column;
   justify-content: center;
@@ -223,34 +317,24 @@ h3 {
   display: flex;
   align-content: center;
 }
+/*form design*/
+.section-3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container-4 {
+  box-shadow: 6px 6px 15px rgba(204, 140, 235, 0.27);
+  border-radius: 10px;
+  padding: 20px;
+}
+.heading-7 {
+  color: #a057c4;
+  text-align: center;
+}
 .text-block {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-.nav-menu {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-.quick-stack {
-  color: #884324;
-}
-.heading-3 {
-  color: #582074;
-  text-align: center;
-}
-.heading-4 {
-  color: #8b213f;
-  text-align: center;
-}
-.heading-5 {
-  color: #884324;
-  text-align: center;
-}
-
-.paragraph-3 {
-  color: #020202;
 }
 .form {
   text-align: center;
@@ -271,103 +355,7 @@ h3 {
   border-radius: 10px;
 }
 
-.heading-7 {
-  color: #a057c4;
-  text-align: center;
-}
-.container-4 {
-  box-shadow: 6px 6px 15px rgba(204, 140, 235, 0.27);
-  border-radius: 10px;
-  padding: 20px;
-}
-.section-3 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.link {
-  color: #884324;
-  text-transform: none;
-  background-color: rgba(243, 160, 123, 0.42);
-  border-radius: 10px;
-  margin-top: 10px;
-  padding: 2.5px 10px;
-
-  text-decoration: none;
-}
-.image-2,
-.image-3,
-.image-4 {
-  border-radius: 10px;
-}
-.link-2 {
-  color: #8b213f;
-  background-color: rgba(245, 118, 153, 0.36);
-  border-radius: 10px;
-  margin-top: 10px;
-  padding: 2.5px 10px;
-  text-decoration: none;
-}
-.link-3 {
-  color: #582074;
-  background-color: rgba(204, 140, 235, 0.43);
-  border-radius: 10px;
-  margin-top: 10px;
-  padding: 2.5px 10px;
-  text-decoration: none;
-}
-.paragraph-2 {
-  color: #2b0a3c;
-  text-align: center;
-  background-color: #fcfcfc;
-  border-radius: 10px;
-  padding: 10px;
-  font-weight: 400;
-  position: static;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: auto;
-}
-.paragraph-3 {
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 10px;
-  position: static;
-  top: 0%;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
-}
-.cell {
-  align-items: flex-start;
-}
-
-.project-cell.project1 {
-  color: #090808;
-  background-image: linear-gradient(225deg, #cc8ceb, #fff);
-  padding: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-  max-width: 500px;
-  display: flex;
-  align-content: center;
-}
-.project-cell.project2 {
-  background-color: #f3a07b;
-  text-align: center;
-  margin-bottom: 20px;
-  max-width: 500px;
-  display: flex;
-  align-content: center;
-}
-.project-cell.project3 {
-  background-color: #cc9ceb;
-  text-align: center;
-  margin-bottom: 20px;
-  max-width: 500px;
-  display: flex;
-  align-content: center;
-}
+/*responsive design */
 
 @media screen and (max-width: 991px) {
   .menu-button {
