@@ -163,6 +163,7 @@ body {
   padding: 20px;
 }
 .footer-logo {
+  margin-top: 30px;
   width: 110px;
   justify-content: center;
   align-items: center;
@@ -174,6 +175,7 @@ body {
   padding-right: 10px;
   text-decoration: none;
 }
+
 .footer-link-block {
   color: #000;
   text-align: center;
