@@ -57,7 +57,7 @@
             >
           </div>
           <div class="w-layout-cell" id="about-me">
-            <p>
+            <p class="paragraph-2">
               I worked as a Digital Marketing Manager Apprentice for two years
               to recieve my marketing and coding qualifications. On the side, I
               completed multiple coding and web design qualifications and
@@ -67,7 +67,7 @@
             </p>
           </div>
           <div id="about-me-2" class="w-layout-cell">
-            <p>
+            <p class="paragraph-3">
               I specialise in Digital Marketing, SEO and Website Design.
               However, I also perform App Design, UX and Graphic Design services
               at request.
@@ -170,13 +170,25 @@
             data-name="Email Form"
             method="get"
             class="form">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" width="100vw" /><br />
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" /><br />
-
+            <label for="name">Name</label><br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              width="100vw"
+              autocomplete="on"
+              size="50" /><br />
+            <br />
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              autocomplete="on"
+              size="40" /><br />
+            <br />
             <label for="message">Message</label><br />
-            <textarea maxlength="5000"></textarea><br />
+            <textarea id="message" rows="5" cols="70"></textarea><br />
             <input type="submit" class="submit-button button w-button" />
           </form>
         </div>
