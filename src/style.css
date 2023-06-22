@@ -39,7 +39,7 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
   font-weight: 400px;
   display: flex;
@@ -110,6 +110,7 @@ body {
   grid-column-gap: 20px;
   grid-auto-columns: 1fr;
   justify-content: center;
+  align-content: center;
 }
 .w-layout-cell {
   justify-content: flex-start;
@@ -121,7 +122,7 @@ body {
 }
 .heading {
   color: #fff;
-  text-align: left;
+  text-align: center;
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 30px;
@@ -129,7 +130,7 @@ body {
 .paragraph {
   max-width: 475px;
   color: #fff;
-  text-align: left;
+  text-align: center;
   margin-top: 10px;
   margin-bottom: 0;
 }
