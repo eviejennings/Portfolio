@@ -190,10 +190,9 @@ h2 {
   font-size: 25px;
 }
 h3 {
-  font-size: 18px;
+  font-size: 1.3em;
 }
 .image {
-  max-width: 350px;
   margin-top: 20px;
   margin-bottom: 20px;
   justify-content: center;
@@ -203,6 +202,7 @@ h3 {
 .image-3,
 .image-4 {
   border-radius: 10px;
+  width: 70%;
 }
 .section-2 {
   max-width: 940px;
