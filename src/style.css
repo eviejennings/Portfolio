@@ -105,6 +105,14 @@ body {
   font-size: 30px;
 }
 
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
 .heading,
 .heading-2,
 .heading-3,
@@ -135,10 +143,14 @@ body {
   max-width: 350px;
   margin-top: 20px;
   margin-bottom: 20px;
+  justify-content: center;
+  text-align: center;
 }
 .section-2 {
   margin-top: 20px;
   margin-bottom: 20px;
+  display: grid;
+  justify-content: center;
 }
 .heading-2 {
   color: #f3a07b;
@@ -146,21 +158,29 @@ body {
 }
 .project-cell {
   border-radius: 10px;
+  display: inline-block;
+  text-align: center;
 }
 .project-cell.project1 {
   color: #090808;
   background-image: linear-gradient(225deg, #cc8ceb, #fff);
   padding: 20px;
+  justify-content: center;
+  text-align: center;
 }
 .project-cell.project2 {
   color: #000;
   background-image: linear-gradient(225deg, #f57699, #fff);
   padding: 20px;
+  justify-content: center;
+  text-align: center;
 }
 .project-cell.project3 {
   color: #000;
   background-image: linear-gradient(225deg, #f3a07b, #fff);
   padding: 20px;
+  justify-content: center;
+  text-align: center;
 }
 .footer-logo {
   margin-top: 30px;
@@ -198,6 +218,7 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
+  align-content: center;
 }
 .text-block {
   text-align: center;
@@ -214,12 +235,15 @@ body {
 }
 .heading-3 {
   color: #582074;
+  text-align: center;
 }
 .heading-4 {
   color: #8b213f;
+  text-align: center;
 }
 .heading-5 {
   color: #884324;
+  text-align: center;
 }
 
 .paragraph-3 {
@@ -323,6 +347,7 @@ body {
   text-align: center;
   max-width: 500px;
   display: flex;
+  align-content: center;
 }
 .project-cell.project2 {
   background-color: #f3a07b;
@@ -330,6 +355,7 @@ body {
   margin-bottom: 20px;
   max-width: 500px;
   display: flex;
+  align-content: center;
 }
 .project-cell.project3 {
   background-color: #cc9ceb;
@@ -337,6 +363,7 @@ body {
   margin-bottom: 20px;
   max-width: 500px;
   display: flex;
+  align-content: center;
 }
 
 @media screen and (max-width: 991px) {
@@ -364,6 +391,7 @@ body {
   .project-cell.project1 {
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   .quick-stack {
     grid-column-gap: 10px;
