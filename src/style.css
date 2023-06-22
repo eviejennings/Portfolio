@@ -30,6 +30,8 @@ body {
 }
 .navbar a:hover {
   color: #582074;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 600;
 }
 .nav-link {
   color: #000;
@@ -43,7 +45,7 @@ body {
   display: flex;
   text-decoration: none;
   padding: 14px 16px;
-  font-size: 19px;
+  font-size: 1.2rem;
 }
 .nav-link.cta {
   color: #fff;
@@ -382,7 +384,6 @@ h3 {
     margin-left: 10px;
     margin-right: 10px;
   }
-
   .project-cell.project2,
   .project-cell.project3,
   .project-cell.project1 {
@@ -398,7 +399,6 @@ h3 {
     text-align: center;
     justify-content: center;
   }
-
   .heading-3,
   .heading-4,
   .heading-5,
