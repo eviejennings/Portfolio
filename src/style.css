@@ -158,7 +158,7 @@ h3 {
 }
 .project-cell {
   border-radius: 10px;
-  display: inline-block;
+  display: flex;
   text-align: center;
 }
 .project-cell.project1 {
@@ -166,21 +166,24 @@ h3 {
   background-image: linear-gradient(225deg, #cc8ceb, #fff);
   padding: 20px;
   justify-content: center;
-  text-align: center;
+  align-items: center;
+  display: flex;
 }
 .project-cell.project2 {
   color: #000;
   background-image: linear-gradient(225deg, #f57699, #fff);
   padding: 20px;
   justify-content: center;
-  text-align: center;
+  align-items: center;
+  display: flex;
 }
 .project-cell.project3 {
   color: #000;
   background-image: linear-gradient(225deg, #f3a07b, #fff);
   padding: 20px;
   justify-content: center;
-  text-align: center;
+  align-items: center;
+  display: flex;
 }
 .footer-logo {
   margin-top: 30px;
