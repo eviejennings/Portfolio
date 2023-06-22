@@ -234,12 +234,11 @@ body {
 }
 .textarea {
   border-radius: 10px;
-  border: 1px solid #a057c4;
+  border: 1px solid #582074;
 }
 .name,
 .email {
   border-radius: 10px;
-  background-color: #cc9ceb;
 }
 
 .heading-7 {
