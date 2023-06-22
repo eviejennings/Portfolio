@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 14.5px;
+  background-color: #fef2ff;
 }
 .heading,
 .heading-2,
@@ -20,7 +21,6 @@ body {
   overflow: hidden;
   border-radius: 10px;
 }
-
 .navbar a {
   float: left;
   color: #000;
@@ -43,7 +43,7 @@ body {
   display: flex;
   text-decoration: none;
   padding: 14px 16px;
-  font-size: 17px;
+  font-size: 19px;
 }
 .nav-link.cta {
   color: #fff;
@@ -70,6 +70,7 @@ body {
 .logo {
   max-width: 100%;
   border-radius: 10px;
+  box-shadow: 6px 6px 15px rgba(204, 140, 235, 0.27);
 }
 .brand {
   max-width: 100px;
@@ -94,6 +95,7 @@ body {
   padding: 20px;
   display: flex;
   position: static;
+  box-shadow: 6px 6px 15px rgba(204, 140, 235, 0.27);
 }
 .section {
   margin-top: 40px;
@@ -104,6 +106,7 @@ body {
 }
 
 /*hero section*/
+
 .w-layout-blockcontainer {
   max-width: 940px;
   margin-left: auto;
@@ -115,7 +118,6 @@ body {
   grid-column-gap: 20px;
   grid-auto-columns: 1fr;
   justify-content: center;
-  padding: 20px;
 }
 .w-layout-cell {
   justify-content: flex-start;
@@ -239,6 +241,7 @@ h3 {
   display: flex;
   margin-bottom: 20px;
   text-align: center;
+  box-shadow: 6px 6px 15px rgba(204, 140, 235, 0.27);
 }
 .project-cell.project2 {
   color: #000;
@@ -249,6 +252,7 @@ h3 {
   display: flex;
   text-align: center;
   margin-bottom: 20px;
+  box-shadow: 6px 6px 15px rgba(204, 140, 235, 0.27);
 }
 .project-cell.project3 {
   color: #000;
@@ -259,6 +263,7 @@ h3 {
   justify-content: center;
   text-align: center;
   display: flex;
+  box-shadow: 6px 6px 15px rgba(204, 140, 235, 0.27);
 }
 .cell {
   align-items: flex-start;
@@ -289,34 +294,6 @@ h3 {
   text-decoration: none;
 }
 
-/*footer design*/
-.footer-logo {
-  margin-top: 30px;
-  width: 110px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-.footer-link {
-  color: #000;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-decoration: none;
-}
-
-.footer-link-block {
-  color: #000;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.container-2 {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  align-content: center;
-}
 /*form design*/
 .section-3 {
   margin-top: 20px;
@@ -353,6 +330,35 @@ h3 {
 .name,
 .email {
   border-radius: 10px;
+}
+
+/*footer design*/
+.footer-logo {
+  margin-top: 30px;
+  width: 110px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.footer-link {
+  color: #000;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.footer-link-block {
+  color: #000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container-2 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-content: center;
 }
 
 /*responsive design */
