@@ -19,7 +19,7 @@ body {
   position: static;
   box-shadow: 0 6px 11px rgba(204, 140, 235, 0.27);
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 14px;
 }
 .navbar a {
   float: left;
@@ -51,7 +51,7 @@ body {
   color: #cc8ceb;
   background-color: #fff;
   border: 1px solid #cc8ceb;
-  border-radius: 10px;
+  border-radius: 14px;
 }
 .nav-menu {
   justify-content: center;
@@ -61,7 +61,7 @@ body {
 
 .logo {
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 14px;
   box-shadow: 6px 6px 15px rgba(204, 140, 235, 0.27);
 }
 .brand {
@@ -81,7 +81,7 @@ body {
     #f3a07b 82%,
     #fff
   );
-  border-radius: 10px;
+  border-radius: 14px;
   justify-content: center;
   align-items: flex-start;
   padding: 20px;
@@ -90,8 +90,9 @@ body {
   box-shadow: 6px 6px 15px rgba(204, 140, 235, 0.27);
 }
 .section {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  background-image: url("images/bg-image.png");
 }
 .quick-stack {
   color: #884324;
@@ -125,6 +126,7 @@ body {
 .w-layout-cell-1 {
   align-items: left;
 }
+
 .heading {
   color: #3b144e;
   text-align: center;
@@ -139,12 +141,7 @@ body {
   margin-top: 10px;
   margin-bottom: 0;
 }
-hr {
-  width: 95%;
-  border: 0.5px solid #3b144e;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+
 h4 {
   font-size: 16px;
   font-family: "Libre Baskerville", serif;
@@ -170,6 +167,27 @@ h4 {
 .row {
   display: flex;
 }
+/*skillset section design*/
+.skillset {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  margin-bottom: 200px;
+}
+h5 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 12px;
+  font-weight: 200;
+  text-align: center;
+}
+h2,
+.skills {
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-size: 25px;
+}
+
 /*project section design*/
 h2 {
   font-size: 25px;
@@ -186,7 +204,7 @@ h3 {
 .image-2,
 .image-3,
 .image-4 {
-  border-radius: 10px;
+  border-radius: 14px;
   width: 70%;
 }
 .section-2 {
@@ -214,7 +232,7 @@ h3 {
   text-align: center;
 }
 .project-cell {
-  border-radius: 10px;
+  border-radius: 14px;
   display: flex;
   align-items: center;
 }
@@ -257,7 +275,7 @@ h3 {
 .link {
   color: #582074;
   background-color: rgba(204, 140, 235, 0.43);
-  border-radius: 10px;
+  border-radius: 14px;
   margin-top: 10px;
   padding: 2.5px 10px;
   text-decoration: none;
@@ -265,7 +283,7 @@ h3 {
 .link-2 {
   color: #8b213f;
   background-color: rgba(245, 118, 153, 0.36);
-  border-radius: 10px;
+  border-radius: 14px;
   margin-top: 10px;
   padding: 2.5px 10px;
   text-decoration: none;
@@ -274,7 +292,7 @@ h3 {
   color: #884324;
   text-transform: none;
   background-color: rgba(243, 160, 123, 0.42);
-  border-radius: 10px;
+  border-radius: 14px;
   margin-top: 10px;
   padding: 2.5px 10px;
   text-decoration: none;
@@ -302,7 +320,7 @@ h3 {
 }
 .container-4 {
   box-shadow: 6px 6px 15px rgba(204, 140, 235, 0.27);
-  border-radius: 10px;
+  border-radius: 14px;
   padding: 20px;
   max-width: 1200px;
 }
@@ -318,7 +336,7 @@ h3 {
 .submit-button {
   background-color: #cc8ceb;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 14px;
   margin-bottom: 10px;
   font-size: 14px;
   margin-top: 20px;
@@ -336,12 +354,12 @@ h3 {
   cursor: pointer;
 }
 .textarea {
-  border-radius: 10px;
+  border-radius: 14px;
 }
 .name,
 .email,
 .message {
-  border-radius: 10px;
+  border-radius: 14px;
   color: #3b144e;
 }
 
