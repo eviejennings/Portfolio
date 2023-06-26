@@ -195,12 +195,12 @@ h5 {
 h3 {
   font-size: 1.3em;
 }
-
 .image-2,
 .image-3,
 .image-4 {
   border-radius: 14px;
   max-width: 80%;
+  object-fit: cover;
 }
 .section-2 {
   max-width: 960px;
