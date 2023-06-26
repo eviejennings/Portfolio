@@ -8,6 +8,7 @@ body {
 .heading-3,
 .heading-4,
 .heading-5,
+.heading-6,
 .heading-7 {
   font-family: "Libre Baskerville", serif;
   text-align: center;
@@ -147,33 +148,35 @@ h4 {
   font-family: "Libre Baskerville", serif;
   color: #8b213f;
   text-align: center;
-  vertical-align: middle;
-  max-width: 90%;
   margin-bottom: 0;
-}
-.paragraph-DM,
-.paragraph-web,
-.paragraph-SEO {
-  max-width: 90%;
-  font-size: 14px;
-  color: #3b144e;
-  margin-bottom: 0;
-  text-align: center;
-}
-.col-md-2 .col-sm-4 {
-  flex: 50%;
-  align-content: left;
-}
-.row {
-  display: flex;
 }
 /*skillset section design*/
 .skillset {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  display: grid;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 200px;
+}
+.paragraph,
+.DM,
+.web,
+.SEO {
+  max-width: 100%;
+  font-size: 14px;
+  color: #3b144e;
+  text-align: center;
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.col {
+  align-items: center;
+  justify-content: center;
 }
 h5 {
   font-family: "Libre Baskerville", serif;
@@ -181,15 +184,17 @@ h5 {
   font-weight: 200;
   text-align: center;
 }
-h2,
-.skills {
+
+.heading-2 {
   text-align: center;
   font-family: "Libre Baskerville", serif;
   font-size: 25px;
+  color: #f57699;
+  margin-bottom: 30px;
 }
 
 /*project section design*/
-h2 {
+.heading-3 {
   font-size: 25px;
 }
 h3 {
@@ -211,23 +216,24 @@ h3 {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 150px;
   display: grid;
   justify-content: center;
 }
-.heading-2 {
+.heading-3 {
   color: #f3a07b;
   text-align: center;
   margin-bottom: 20px;
 }
-.heading-3 {
+.heading-4 {
   color: #582074;
   text-align: center;
 }
-.heading-4 {
+.heading-5 {
   color: #8b213f;
   text-align: center;
 }
-.heading-5 {
+.heading-6 {
   color: #884324;
   text-align: center;
 }
@@ -364,18 +370,16 @@ h3 {
 }
 
 /*footer design*/
-.footer-logo {
-  margin-top: 30px;
-  width: 110px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
+
 .footer-link {
   color: #3b144e;
   padding-left: 10px;
   padding-right: 10px;
   text-decoration: none;
+  font-weight: 600;
+}
+.footer-link:hover {
+  text-decoration: underline;
 }
 
 .footer-link-block {
@@ -383,12 +387,17 @@ h3 {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 40px;
 }
 .text-block {
   color: #3b144e;
-  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+.footerParagraph {
+  text-align: center;
+  max-width: 70%;
 }
 .container-2 {
   flex-direction: column;
@@ -444,6 +453,12 @@ h3 {
   .paragraph-3,
   .paragraph-4 {
     text-align: center;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 479px) {
