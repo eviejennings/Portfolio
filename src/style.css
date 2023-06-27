@@ -446,6 +446,12 @@ h3 {
   .skillset {
     max-width: 90%;
   }
+  .navbar {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+  }
 }
 @media screen and (max-width: 479px) {
   .heading {
