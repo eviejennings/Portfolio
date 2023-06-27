@@ -149,6 +149,20 @@ h4 {
   color: #3b144e;
   text-align: center;
 }
+.shecodes-link {
+  text-decoration: none;
+  color: #8b213f;
+}
+.shecodes-link:hover {
+  text-decoration: underline;
+}
+.webflow-link {
+  text-decoration: none;
+  color: #8b213f;
+}
+.webflow-link:hover {
+  text-decoration: underline;
+}
 .row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
