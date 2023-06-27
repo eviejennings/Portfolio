@@ -103,12 +103,8 @@ body {
 }
 
 /*hero section*/
-
 .w-layout-layout {
   max-width: 90%;
-  grid-row-gap: 20px;
-  grid-column-gap: 20px;
-  grid-auto-columns: 1fr;
   justify-content: center;
   align-content: center;
   margin: 0 auto;
@@ -433,6 +429,10 @@ h3 {
   .paragraph-4 {
     text-align: center;
   }
+  .paragraph {
+    max-width: 90%;
+  }
+
   .row {
     display: grid;
     grid-template-columns: auto;
@@ -473,8 +473,5 @@ h3 {
     grid-column-gap: 10px;
     padding-top: 10px;
     padding-right: 10px;
-  }
-  .logo {
-    max-width: 80%;
   }
 }
