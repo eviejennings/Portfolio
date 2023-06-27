@@ -39,6 +39,7 @@ body {
   font-weight: 600;
 }
 .nav-link {
+  font-size: 1em;
   color: #3b144e;
   flex-direction: column;
   text-align: center;
@@ -385,17 +386,8 @@ h3 {
 /*responsive design */
 
 @media screen and (max-width: 991px) {
-  .menu-button {
-    margin-right: -18px;
-  }
-  .menu-button.w--open {
-    background-color: #fffdfd;
-  }
   .icon {
     color: #cc8ceb;
-  }
-  .nav-menu {
-    background-color: #fffdfd;
   }
 }
 @media screen and (max-width: 767px) {
@@ -459,6 +451,9 @@ h3 {
   .heading-7 {
     margin-bottom: 15px;
   }
+  .nav-link {
+    font-size: 0.9em;
+  }
 }
 @media screen and (max-width: 479px) {
   .heading-2 {
@@ -473,5 +468,8 @@ h3 {
     grid-column-gap: 10px;
     padding-top: 10px;
     padding-right: 10px;
+  }
+  .nav-link {
+    font-size: 0.5em;
   }
 }
