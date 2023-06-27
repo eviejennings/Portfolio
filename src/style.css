@@ -404,8 +404,8 @@ h3 {
 }
 @media screen and (max-width: 767px) {
   .container {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .heading {
     font-size: 40px;
