@@ -474,4 +474,8 @@ h3 {
     padding-left: 5px;
     padding-right: 5px;
   }
+  .brand.logo {
+    max-width: 50%;
+    object-fit: cover;
+  }
 }
