@@ -21,6 +21,10 @@ body {
   box-shadow: 0 6px 11px rgba(204, 140, 235, 0.27);
   overflow: hidden;
   border-radius: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .navbar a {
   float: left;
